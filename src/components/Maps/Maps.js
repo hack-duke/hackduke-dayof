@@ -1,6 +1,14 @@
 import React from 'react'
-// import classes from './Maps.scss'
+import classes from './Maps.scss'
 import eventInfoClasses from 'components/EventInfo/EventInfo.scss'
+import equad from 'static/maps/HackDukeSmallMap.png'
+import campus from 'static/maps/HackDukeBigMap.png'
+import hudson1 from 'static/maps/Hudson1.png'
+import hudson2 from 'static/maps/Hudson2.png'
+import ciemas1 from 'static/maps/CIEMAS1.png'
+import ciemas2 from 'static/maps/CIEMAS2.png'
+import ciemas3 from 'static/maps/CIEMAS3.png'
+import { Col, Row } from 'react-bootstrap'
 
 class Maps extends React.Component {
 
@@ -11,6 +19,66 @@ class Maps extends React.Component {
           <div className={eventInfoClasses.title}>
             MAPS
           </div>
+          <Row className={classes.mapRow}>
+            <Col md={12}>
+              <div className={classes.imageBoxSingle}>
+                <img className={classes.imageSingle} src={campus} />
+              </div>
+            </Col>
+          </Row>
+          <Row className={classes.mapRow}>
+            <Col md={12}>
+              <div className={classes.imageBoxSingle}>
+                <img className={classes.imageSingle} src={equad} />
+              </div>
+            </Col>
+          </Row>
+          <Row className={classes.mapRow}>
+            <Col md={12}>
+              <div className={classes.imageBoxSingle}>
+                <figure>
+                  <img className={classes.image} src={ciemas1} />
+                  <figcaption className={classes.caption}>CIEMAS 1st floor</figcaption>
+                </figure>
+              </div>
+            </Col>
+          </Row>
+          <Row className={classes.mapRow}>
+            <Col md={6}>
+              <div className={classes.imageBoxLeft}>
+                <figure>
+                  <img className={classes.image} src={ciemas2} />
+                  <figcaption className={classes.caption}>CIEMAS 2nd floor</figcaption>
+                </figure>
+              </div>
+            </Col>
+            <Col md={6}>
+              <div className={classes.imageBoxRight}>
+                <figure>
+                  <img className={classes.image} src={ciemas3} />
+                  <figcaption className={classes.caption}>CIEMAS 3rd floor</figcaption>
+                </figure>
+              </div>
+            </Col>
+          </Row>
+          <Row className={classes.mapRow}>
+            <Col md={6}>
+              <div className={classes.imageBoxLeft}>
+                <figure>
+                  <img className={classes.image} src={hudson1} />
+                  <figcaption className={classes.caption}>Hudson 1st floor</figcaption>
+                </figure>
+              </div>
+            </Col>
+            <Col md={6}>
+              <div className={classes.imageBoxRight}>
+                <figure>
+                  <img className={classes.image} src={hudson2} />
+                  <figcaption className={classes.caption}>Hudson 2nd floor</figcaption>
+                </figure>
+              </div>
+            </Col>
+          </Row>
         </div>
       </div>
     )
@@ -18,4 +86,3 @@ class Maps extends React.Component {
 }
 
 export default Maps
-
