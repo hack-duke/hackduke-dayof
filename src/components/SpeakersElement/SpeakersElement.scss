@@ -1,5 +1,14 @@
 @import 'src/styles/base';
 
+@font-face {
+  font-family: 'Montserrat Light';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Montserrat Light'), local('Montserrat-Light'),
+      url(static/fonts/montserrat-light.woff) format('woff'),
+      url(static/fonts/montserrat-light.ttf) format('truetype');
+}
+
 .container {
   padding-top: 30px;  
   display: flex;
@@ -19,8 +28,27 @@
 
 .title {
   color: $acceptedBlue;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-size: 1.05em;
+  font-family: "Avenir Next", sans-serif;
 }
 
-.title, .time, .info {
+.speaker, .text {
+  display: inline;
+  letter-spacing: 0.5px;
+}
+
+.speaker {
+  font-weight: 500;
+}
+
+.text, .time {
+  color: #4A4A4A;
+  font-weight: 300;
+}
+
+.time, .speaker, .text {
+  font-family: "Avenir Next", sans-serif;
   font-size: 1em;
 }

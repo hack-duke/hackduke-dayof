@@ -22,7 +22,8 @@ class SpeakersElement extends React.Component {
             <div className={classes.time}> {this.props.location} </div>
           </div>
           <div className={classes.infoContainer}>
-            <div className={classes.info}> {this.props.speaker} {this.props.text}</div>
+            <div className={classes.speaker}> {this.props.speaker} </div>
+            <div className={classes.text}> {this.props.text} </div>
           </div>
         </div>
       </div>
