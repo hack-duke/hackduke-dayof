@@ -9,50 +9,50 @@ let mentorshipLeftTimes = ['Saturday Nov 19, 1:30 pm', 'Saturday Nov 19, 1:30 pm
 let mentorshipLeftLocations = ['Hudson Hall 208', 'Schiciano B']
 let mentorshipLeftSpeakers = ['LAUREN SHUM', 'JAMIE DANIEL']
 let mentorshipLeftText = ['is an ECE major, President of the Duke Smart Home, and organic photovoltaics research assistant. Her experience includes building heat transfer calculation tools supporting coal plant retrofits in China and designing a thermoelectric trash combustor for mitigating pollution in India. As the 2016 Delegate of the United States of America to the G(irls)20 Summit, she helped draft and deliver a communiqué to G20 leaders with recommendations for increasing female labor force participation worldwide. She was also invited to the White House to speak on solar energy and engineering education in her capacity as a NAE Grand Challenge Scholar.',
-'will take you through the process of innovation at Duke Health. From providers, to engineers, and finally to the patients, health technologies are making their impact at Duke Hospital.'] 
+  'will take you through the process of innovation at Duke Health. From providers, to engineers, and finally to the patients, health technologies are making their impact at Duke Hospital.']
 
 let mentorshipRightTitles = ['Housing Inequality in Durham', 'Innovative Approaches to Educational Issues']
 let mentorshipRightTimes = ['Saturday Nov 19, 1:30 pm', 'Saturday Nov 19, 1:30 pm']
 let mentorshipRightLocations = ['Hudson Hall 207', 'Schiciano A']
 let mentorshipRightSpeakers = ['TREY WALK and SNEHAN SHARMA', 'DAVID M. MALONE']
 let mentorshipRightText = ['are students who work with Community Empowerment Fund, a nonprofit that provides financial services to low income individuals in Durham and Chapel Hill, North Carolina. Trey and Snehan will speak specifically on how housing, a central feature of building wealth in America, and how housing policy can create and perpetuate inequality.',
-'is the Director of Duke\'s Education Dept. and Service Learning Initiative. In a panel-style forum, he will be accompanied by Aria Chernik, Director of Open Knowledge at The Innovation and Technology Policy Lab, and guests from The Friday Institute for Educational Innovation. Hackers will learn about modern issues in education while engaging in discussion with panel members and other hackers about how these issues may be solved with technology.']
+  'is the Director of Duke\'s Education Dept. and Service Learning Initiative. In a panel-style forum, he will be accompanied by Aria Chernik, Director of Open Knowledge at The Innovation and Technology Policy Lab, and guests from The Friday Institute for Educational Innovation. Hackers will learn about modern issues in education while engaging in discussion with panel members and other hackers about how these issues may be solved with technology.']
 
 let sponsorshipLeftTitles = ['Using the Co-Lab\'s APIs to access Duke Data', 'Zoho\'s Tech Talk', 'How to use ArcGIS JavaScript API with ArcGIS Online to visualize data', 'Writing server-less apps on the Ethereum blockchain']
 let sponsorshipLeftTimes = ['Saturday Nov 19, 3:00 pm', 'Saturday Nov 19, 3:30', 'Saturday Nov 19, 4:15pm', 'Saturday Nov 19, 5:00 pm']
 let sponsorshipLeftLocations = ['Hudson Hall 207', 'Hudson Hall 207', 'Hudson 125', 'Hudson 208']
 let sponsorshipLeftSpeakers = ['SALLY HALL: ', 'ANKIT PANSARI', 'NATHAN WU: ', 'JIM POSEN: ']
 let sponsorshipLeftText = ['Attendees will learn what API endpoints the Co-Lab has, what data can be accessed using them, and how to integrate them into applications, including authentication requirements',
-'',
-'This workshop is providing a lighting way of converting any csv data with geocode or physical address into a featureLayer in ArcGIS Online, and how to use ArcGIS JavaScript to renderer those string data and project on the map.',
-'An introduction to blockchain technologies, covering what they are and the powerful paradigm shift they have enabled. We will focus on the Ethereum protocol and show how you can get started writing applications using it without any backend servers.']
+  '',
+  'This workshop is providing a lighting way of converting any csv data with geocode or physical address into a featureLayer in ArcGIS Online, and how to use ArcGIS JavaScript to renderer those string data and project on the map.',
+  'An introduction to blockchain technologies, covering what they are and the powerful paradigm shift they have enabled. We will focus on the Ethereum protocol and show how you can get started writing applications using it without any backend servers.']
 
 let sponsorshipRightTitles = ['React Messaging App Workshop', 'From Duke to Industry: Getting the Tech Job', 'Esri Tech Talk', 'Blockchain, ConsenSys, Ethereum, and INFURA']
 let sponsorshipRightTimes = ['Saturday Nov 19, 5:00 pm', 'Saturday Nov 19, 5:30', 'Saturday Nov 19, 6:30pm', 'Saturday Nov 19, 8:30 pm']
 let sponsorshipRightLocations = ['Hudson Hall 207', 'Hudson Hall 208', 'Hudson 125', 'Hudson 207']
 let sponsorshipRightSpeakers = ['MICHAEL DENG: ', 'YU ZHOU LEE', 'STEWART ROUSE', 'BRENT XU and MICHAEL WUEHLER']
 let sponsorshipRightText = ['A project driven workshop where we use ReactJS to make a basic Messaging App.',
-'is a software engineer @ twitter and a cool person who basically founded hackduke. he works in san francisco. More text here i dont konw how long their blurb will be but i will keep typing to fill up space yay yu zhou yu hzou is awesome and coming again even though he came like two weeks ago does he even work let me know.',
-'',
-'will be discussing ConsenSys and the role that it plays in the BlockChain community.  Additionally we will go into details of developer tools that have been created within ConsenSys including INFURA and other various Ethereum related Dapps.  The talk will focus on innovations in the Blockchain space as well as opportunities and advancements in this fast growing industry.']
+  'is a software engineer @ twitter and a cool person who basically founded hackduke. he works in san francisco. More text here i dont konw how long their blurb will be but i will keep typing to fill up space yay yu zhou yu hzou is awesome and coming again even though he came like two weeks ago does he even work let me know.',
+  '',
+  'will be discussing ConsenSys and the role that it plays in the BlockChain community.  Additionally we will go into details of developer tools that have been created within ConsenSys including INFURA and other various Ethereum related Dapps.  The talk will focus on innovations in the Blockchain space as well as opportunities and advancements in this fast growing industry.']
 
 let educationLeftTitles = ['Intro to Git', 'React JS', 'HTML/CSS/JS', 'Backend Web Development']
 let educationLeftTimes = ['Saturday Nov 19, 3:00 pm', 'Saturday Nov 19, 4:00 pm', 'Saturday Nov 19, 4:00 pm', 'Saturday Nov 19, 6:00 pm']
 let educationLeftLocations = ['Hudson 208', 'Hudson 207', 'Hudson 208', 'Hudson 207']
 let educationLeftSpeakers = ['JIAWEI ZHANG and DEV DABKE', 'DEV DABKE', 'KEVIN HE', 'JIAWEI ZHANG']
 let educationLeftText = ['',
-'',
-'',
-'']
+  '',
+  '',
+  '']
 
 let educationRightTitles = ['Web Apps in Ruby on Rails', 'Facebook Chatbots in Node JS', 'Tech and Social Justice', 'Ending the Hackathon']
 let educationRightTimes = ['Saturday Nov 19, 6:00 pm', 'Saturday Nov 19, 8:30 pm', 'Saturday Nov 19, 9:30 pm', 'Sunday Nov 20, 11:00 am']
 let educationRightLocations = ['Hudson 208', 'Hudson 208', 'Hudson 208', 'Hudson 208']
 let educationRightSpeakers = ['GENG SNG', 'KAMERON KALES', 'STANLEY YUAN', 'BERNARD MARGER']
 let educationRightText = ['',
-'',
-'',
-'']
+  '',
+  '',
+  '']
 
 class Speakers extends React.Component {
 

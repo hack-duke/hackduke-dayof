@@ -1,6 +1,6 @@
 import React from 'react'
 import classes from './SpeakersElement.scss'
-import eventInfoClasses from 'components/EventInfo/EventInfo.scss'
+// import eventInfoClasses from 'components/EventInfo/EventInfo.scss'
 
 class SpeakersElement extends React.Component {
 
