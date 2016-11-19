@@ -70,16 +70,14 @@ class NavMenu extends React.Component {
             <IndexLink onClick={this.handleClick} className={classes.linkElement}
               to={'/speakers'}>SPEAKERS</IndexLink>
           </div>
+          <div className={classes.menuItem}>
+            <IndexLink onClick={this.handleClick} className={classes.linkElement}
+              to={'/datasets'}>DATASETS</IndexLink>
+          </div>
         </div>
       </div>
     )
   }
 }
 
-// <div className={classes.menuItem}>
-//   <IndexLink onClick={this.handleClick} className={classes.linkElement}
-//     to={'/datasets'}>DATASETS</IndexLink>
-// </div>
-
 export default NavMenu
-
