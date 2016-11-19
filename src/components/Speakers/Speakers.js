@@ -8,7 +8,7 @@ let mentorshipLeftTitles = ['Technology for Energy and Environmental Sustainabil
 let mentorshipLeftTimes = ['Saturday Nov 19, 1:30 pm', 'Saturday Nov 19, 1:30 pm']
 let mentorshipLeftLocations = ['Hudson Hall 208', 'Schiciano B']
 let mentorshipLeftSpeakers = ['LAUREN SHUM', 'JAMIE DANIEL']
-let mentorshipLeftText = ['is the president of the Duke SmartHome. She wants to inspire hackers with ideas and current problems relating to energy and the environment',
+let mentorshipLeftText = ['is an ECE major, President of the Duke Smart Home, and organic photovoltaics research assistant. Her experience includes building heat transfer calculation tools supporting coal plant retrofits in China and designing a thermoelectric trash combustor for mitigating pollution in India. As the 2016 Delegate of the United States of America to the G(irls)20 Summit, she helped draft and deliver a communiqué to G20 leaders with recommendations for increasing female labor force participation worldwide. She was also invited to the White House to speak on solar energy and engineering education in her capacity as a NAE Grand Challenge Scholar.',
 'will take you through the process of innovation at Duke Health. From providers, to engineers, and finally to the patients, health technologies are making their impact at Duke Hospital.'] 
 
 let mentorshipRightTitles = ['Housing Inequality in Durham', 'Innovative Approaches to Educational Issues']
