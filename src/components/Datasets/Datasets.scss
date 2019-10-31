@@ -1,5 +1,21 @@
 @import 'src/styles/base';
 
+.energyAndEnvironment {
+    color: #AFE0D0;
+}
+
+.healthAndWellness {
+    color: #2B9B99;
+}
+
+.inequality {
+    color: #678BE1;
+}
+
+.education {
+    color: #E68560;
+}
+
 .leftColumnContainer {
   width: 400px;
   float: right;
@@ -14,7 +30,7 @@
   padding-top: 10px;
   text-align: center;
   font-family: 'Open Sans';
-  color: #dc836f;
+//   color: #dc836f;
 }
 
 .contentContainer {
