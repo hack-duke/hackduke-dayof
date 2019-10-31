@@ -40,45 +40,43 @@ class TravelInfo extends React.Component {
                     >
                         <FAQItem
                             title={'Company APIs'}
-                            // beforeText={"They suck but they have some fun "}
-                            // link={' '}
-                            // linkText={'workshops'}
-                            // afterText={' where you can learn about ML.'}
                         />
                         {/* LEFT COLUMN OF APIS */}
-                        <Col md={6}>
-                            <div className={datasetClasses.leftColumnContainer}>
-                                <div className={datasetClasses.contentContainer}>
-                                    <DatasetElement
-                                        header={'Smartcar'}
-                                        blurb={'Interested in mobility applications? The Smartcar API offers a variety of ways to interact with and fetch data from numerous different car brands'}
-                                        url={'https://smartcar.com/docs/'}
-                                    />
+                        <div className={datasetClasses.companyApi}>
+                            <Col md={6}>
+                                <div className={datasetClasses.leftColumnContainer}>
+                                    <div className={datasetClasses.contentContainer}>
+                                        <DatasetElement
+                                            header={'Smartcar'}
+                                            blurb={'Interested in mobility applications? The Smartcar API offers a variety of ways to interact with and fetch data from numerous different car brands'}
+                                            url={'https://smartcar.com/docs/'}
+                                        />
+                                    </div>
                                 </div>
-                            </div>
-                            <div className={datasetClasses.leftColumnContainer}>
-                                <div className={datasetClasses.contentContainer}>
-                                    <DatasetElement
-                                        header={'GSK Chatbot'}
-                                        blurb={'Visit the table in CIEMAS to check it out and learn how to use it for your own chatbots!'}
-                                        url={'idk man'}
-                                    />
+                                <div className={datasetClasses.leftColumnContainer}>
+                                    <div className={datasetClasses.contentContainer}>
+                                        <DatasetElement
+                                            header={'GSK Chatbot'}
+                                            blurb={'Visit the table in CIEMAS to check it out and learn how to use it for your own chatbots!'}
+                                            url={'idk man'}
+                                        />
+                                    </div>
                                 </div>
-                            </div>
-                        </Col>
+                            </Col>
 
-                        {/* RIGHT COLUMN OF APIS */}
-                        <Col md={6}>
-                            <div className={datasetClasses.rightColumnContainer}>
-                                <div className={datasetClasses.contentContainer}>
-                                    <DatasetElement
-                                        header={'Capital One'}
-                                        blurb={'Capital One\'s Nessie API gives you access to real public data and simulated account data so that you can build your own financial applications'}
-                                        url={'http://api.reimaginebanking.com/'}
-                                    />
+                            {/* RIGHT COLUMN OF APIS */}
+                            <Col md={6}>
+                                <div className={datasetClasses.rightColumnContainer}>
+                                    <div className={datasetClasses.contentContainer}>
+                                        <DatasetElement
+                                            header={'Capital One'}
+                                            blurb={'Capital One\'s Nessie API gives you access to real public data and simulated account data so that you can build your own financial applications'}
+                                            url={'http://api.reimaginebanking.com/'}
+                                        />
+                                    </div>
                                 </div>
-                            </div>
-                        </Col>
+                            </Col>
+                        </div>
                     </Row>
 
                     {/* MLH STUFF */}
